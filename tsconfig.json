@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "ES2022",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "importHelpers": true,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "preserveConstEnums": true,
+        "declaration": true,
+        "lib": ["ES2022", "dom"],
+        "noUnusedLocals": true,
+        "noImplicitReturns": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "obj"
+    },
+    "include": ["src/**/*"]
+}
